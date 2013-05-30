@@ -1,0 +1,19 @@
+{
+	"name": "comparepackages",
+	"description": "Crawls all package.json in a Node project, and dumps a key to version dictionary.",
+	"author": "Dawson Toth <dtoth@appcelerator.com>",
+	"version": "1.0.0",
+	"preferGlobal": true,
+	"dependencies": {
+		"optimist": "0.5.1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "http://github.com/dawsontoth/comparepackages.git"
+	},
+	"bin": {
+		"comparepackages": "./bin/index"
+	},
+	"main": "./index/run",
+	"engine": "node >= 0.6.6"
+}
